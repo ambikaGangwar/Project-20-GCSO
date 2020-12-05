@@ -22,9 +22,7 @@ wall=createSprite(1500,200,60,height/2);
 
 function draw() {
  
- if(car.isTouching(wall)){
-   car.collide(wall);
- }
+ 
 
  
 if(wall.x-car.x<(car.width+wall.width)/2)
